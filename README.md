@@ -12,7 +12,7 @@ Hak Akses: Pengembang memberikan kepada Pengguna hak yang bersifat non-eksklusif
 Penggunaan Umum: Lisensi ini diberikan untuk penggunaan pribadi maupun profesional yang sah, sesuai dengan fitur dan ketentuan layanan yang disediakan dalam Aplikasi.
 
 2. Hak Kekayaan Intelektual (Intellectual Property)
-Kepemilikan: Seluruh hak cipta, merek dagang, kode sumber (source code), desain antarmuka (UI/UX), logo, dan hak kekayaan intelektual lainnya yang melekat pada Aplikasi Berejo Sinema adalah milik penuh Pengembang.
+Kepemilikan: Seluruh hak cipta, merek dagang, kode sumber (source code), desain antarmuka (UI/UX), logo, dan hak kekayaan intelektual lainnya yang melekat pada Aplikasi Berejo Sinema adalah milik penuh Pengembang (Armansyah, S.Kom, M.Pd, Gr alias Cekgu Arman).
 
 Bukan Pengalihan Hak: Perjanjian ini memberikan hak penggunaan, bukan penjualan atau pengalihan hak milik atas Aplikasi.
 
