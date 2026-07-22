@@ -48,12 +48,30 @@ import {
 } from 'lucide-react';
 
 // Firebase Configuration
-const firebaseConfig = JSON.parse(__firebase_config);
-const app = initializeApp(firebaseConfig);
+// Firebase Configuration (Aman untuk Vercel & Canvas Gemini)
+const defaultFirebaseConfig = {
+  apiKey: "demo-api-key",
+  authDomain: "demo.firebaseapp.com",
+  projectId: "demo-project",
+  storageBucket: "demo.appspot.com",
+  messagingSenderId: "123456789",
+  appId: "1:123456789:web:demo"
+};
+
+const getFirebaseConfig = () => {
+  try {
+    return typeof __firebase_config !== 'undefined' 
+      ? JSON.parse(__firebase_config) 
+      : defaultFirebaseConfig;
+  } catch (e) {
+    return defaultFirebaseConfig;
+  }
+};
+
+const app = initializeApp(getFirebaseConfig());
 const auth = getAuth(app);
 const db = getFirestore(app);
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'sinema-berejo';
-
 const apiKey = ""; 
 
 // --- Constants ---
